@@ -13,6 +13,8 @@ Once that is done, run the pipeline as follows:
 bash scripts/evSrc.sh addr://your/fav/git/repository /path/to/a/local/working/folder
 ```
 
+and once all is done, you can collect your results from `/path/to/a/local/working/folder/results`.
+
 # Contact
 B. Arman Aksoy - [arman@aksoy.org](mailto:arman@aksoy.org)
 
