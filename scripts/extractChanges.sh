@@ -1,6 +1,5 @@
 #!/bin/bash
- 
-for i in `git ls-files`
-do 
-        git log --follow -p -- $i |grep "^commit" |awk "{ print \"$i\tmodified-in\t\" \$2 }"
+
+for i in `git ls-files`; do
+	git log --pretty="$i%x09modified-in%x09%H" --follow $i
 done
