@@ -1,6 +1,7 @@
 # evSrc: EVolutionary SouRCe
 
-A tool that identifies bad design choices in software development from a history of changes.
+A tool that identifies code couplings within a software project from a history of changes. Tight code couplings are particularly hard to detect [code smells](http://en.wikipedia.org/wiki/Code_smell) since the indicators are not within the code itself but in the relationship between different pieces.
+
 The tool, itself, is still work in progress, but you can read more about the approach from the following blog post:
 
 [http://ergoso.me/computer/science/github/software/evolutionary/couplings/2014/12/10/evsrc-evolutionary-couplings-reveal-poor-software-design.html](http://ergoso.me/computer/science/github/software/evolutionary/couplings/2014/12/10/evsrc-evolutionary-couplings-reveal-poor-software-design.html)
