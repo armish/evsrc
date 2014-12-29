@@ -1,6 +1,12 @@
-library("igraph");
-library("corpcor");
+if (!require('igraph')) {
+  install.packages("igraph", repos='http://cran.revolutionanalytics.com', type = 'source')
+  library("igraph")
+}
 
+if (!require('corpcor')) {
+  install.packages('corpcor', repos='http://cran.revolutionanalytics.com', type = 'source')
+  library("corpcor");
+}
 
 changes <- read.table("changes.sif", header=F, sep="\t", stringsAsFactors=F);
 g <- graph.data.frame(changes[, c(1,3)], directed=TRUE);
