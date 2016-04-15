@@ -18,9 +18,12 @@ and once all is done, you can collect your results from `/path/to/a/local/workin
 
 ## Visualizing results
 
-PDF result is rendered automatically with igraph in the results folder
+PDF results that are rendered with igraph are automatically generated in the results folder.
 
-Other options
+By default, correlation thresholds .1, .3, .5, .7, .9 are generated via the R script. If you receive no output, you may try smaller thresholds
+
+Other options for visualizing the results
+
 D3 based viewer http://pnavarrc.github.io/evsrc-visualization/dist/
 Cytoscape.js viewer here http://cmdcolin.github.io/evsrc-cytoscape/
 
