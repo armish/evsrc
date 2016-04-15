@@ -16,6 +16,14 @@ bash scripts/evSource.sh addr://your/fav/git/repository /path/to/a/local/working
 
 and once all is done, you can collect your results from `/path/to/a/local/working/folder/results`.
 
+## Visualizing results
+
+PDF result is rendered automatically with igraph in the results folder
+
+Other options
+D3 based viewer http://pnavarrc.github.io/evsrc-visualization/dist/
+Cytoscape.js viewer here http://cmdcolin.github.io/evsrc-cytoscape/
+
 # Contact
 B. Arman Aksoy - [arman@aksoy.org](mailto:arman@aksoy.org)
 
